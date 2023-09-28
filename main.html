@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My List</title>
+  <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+  
+  <div id="fade" class="hide"></div>
+
+  <span>Your List Js</span>
+
+  <div class="hide"id="containerRemoveNote">
+    <p>Deseja Remover ?</p>
+    <button id="rnButton">Remover</button>
+    <button id="closeRnModal">Voltar</button>
+  </div>
+
+  <div id="mainCointainer">
+    <button id="add">+</button><br>
+
+      <notes>
+       
+      </notes>
+  </div>
+
+
+  <div id="modal" class="hide">
+
+      <div id="form">
+        <button id="closeModal">X</button>
+        <input 
+        type="text" 
+        name="note" 
+        id="text-note">
+        <input 
+        id="modalSubmit" 
+        type="button" 
+        value="Create Note">
+      </div>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
